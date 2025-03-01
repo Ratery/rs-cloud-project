@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ratery/rs-cloud-project:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/test:1.0
