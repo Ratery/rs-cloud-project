@@ -31,4 +31,3 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: $/rs-cloud-project:latest
